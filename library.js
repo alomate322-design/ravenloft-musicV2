@@ -1,33 +1,43 @@
 // Общий модуль для background.js (звук) и app.js (интерфейс):
 // константы, слияние встроенного плейлиста с правками мастера, утилиты.
- 
+
 import { BUILTIN_FOLDERS } from "./data.js";
- 
+
 export const STATE_KEY = "com.ravenloft.music/state";     // room metadata: что играет
 export const LIB_KEY = "com.ravenloft.music/library";     // room metadata: правки плейлиста
 export const SFX_CHANNEL = "com.ravenloft.music/sfx";     // broadcast ALL: одноразовые звуки
 export const CTL_CHANNEL = "com.ravenloft.music/ctl";     // broadcast LOCAL: попап <-> фон
 export const LS_PREFIX = "ravenloft-music:";
- 
+
 export function emptyLibrary() {
   return { hidden: [], overrides: {}, customStreams: {}, customFolders: [] };
 }
- 
+
 export function clamp01(v) {
   if (typeof v !== "number" || !Number.isFinite(v)) return 0;
   return v < 0 ? 0 : v > 1 ? 1 : v;
 }
- 
+
 export function toDirectUrl(link) {
-  // Dropbox: `dl=0` — HTML-страница предпросмотра, `dl=1` — сам файл
-  // (редирект на dl.dropboxusercontent.com). `raw=1` НЕ подходит: для
-  // ссылок вида scl/fi/... он отдаёт превью-страницу, а не поток, и <audio>
-  // молчит. Ссылки, которые уже ведут на *.dropboxusercontent.com, не трогаем.
+  // Dropbox. www.dropbox.com даже с dl=1 отдаёт файл через редирект, на
+  // котором Chrome-плеер спотыкается у незалогиненных в Dropbox пользователей
+  // (MEDIA_ERR_NETWORK / FFmpegDemuxer data source error). Домен
+  // dl.dropboxusercontent.com отдаёт файл напрямую всем и умеет range-запросы.
+  // Путь (/scl/fi/... или /s/...) и rlkey сохраняем, лишнее (st, dl, raw)
+  // убираем.
   try {
     const url = new URL(link);
-    if (url.hostname === "dropbox.com" || url.hostname === "www.dropbox.com") {
+    const host = url.hostname;
+    if (host === "dropbox.com" || host === "www.dropbox.com") {
+      url.hostname = "dl.dropboxusercontent.com";
+      url.searchParams.delete("dl");
       url.searchParams.delete("raw");
-      url.searchParams.set("dl", "1");
+      url.searchParams.delete("st");
+      return url.toString();
+    }
+    if (host === "dl.dropboxusercontent.com") {
+      url.searchParams.delete("dl");
+      url.searchParams.delete("raw");
       return url.toString();
     }
   } catch {
@@ -35,7 +45,7 @@ export function toDirectUrl(link) {
   }
   return link;
 }
- 
+
 export function readLocal(key, fallback) {
   try {
     const raw = localStorage.getItem(LS_PREFIX + key);
@@ -44,7 +54,7 @@ export function readLocal(key, fallback) {
     return fallback;
   }
 }
- 
+
 export function writeLocal(key, value) {
   try {
     localStorage.setItem(LS_PREFIX + key, JSON.stringify(value));
@@ -52,24 +62,24 @@ export function writeLocal(key, value) {
     /* приватный режим / квота — не критично */
   }
 }
- 
+
 export function readLocalAudioPrefs() {
   return {
     masterVolume: clamp01(Number(readLocal("masterVolume", 1))),
     muted: !!readLocal("muted", false),
   };
 }
- 
+
 export function freshId(prefix) {
   return `${prefix}-${Date.now()}-${Math.floor(Math.random() * 10000)}`;
 }
- 
+
 // id из data.js — числа, а Map/dataset/metadata работают со строками.
 // Приводим к строке один раз здесь и дальше везде используем только строку.
 export function normalizeId(stream) {
   return String(stream.id);
 }
- 
+
 function applyOverride(library, stream) {
   const id = normalizeId(stream);
   const o = library.overrides?.[id];
@@ -84,12 +94,12 @@ function applyOverride(library, stream) {
   delete merged.link;
   return merged;
 }
- 
+
 // Возвращает { folders, index }, где index: Map<streamId, {folder, stream}>.
 export function computeEffectiveFolders(library) {
   const hidden = new Set((library.hidden || []).map(String));
   const folders = [];
- 
+
   for (const f of BUILTIN_FOLDERS) {
     const extra = library.customStreams?.[f.id] || [];
     const streams = [...f.streams, ...extra]
@@ -103,15 +113,14 @@ export function computeEffectiveFolders(library) {
       .map((s) => applyOverride(library, s));
     folders.push({ ...cf, id: String(cf.id), builtin: false, streams });
   }
- 
+
   const index = new Map();
   for (const folder of folders) {
     for (const stream of folder.streams) index.set(stream.id, { folder, stream });
   }
   return { folders, index };
 }
- 
+
 export function isBuiltinFolder(folderId) {
   return BUILTIN_FOLDERS.some((f) => String(f.id) === String(folderId));
 }
- 

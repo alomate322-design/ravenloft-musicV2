@@ -1,6 +1,6 @@
 {
     "name": "Ravenloft Music",
-    "version": "2.0.0",
+    "version": "2.0.2",
     "manifest_version": 1,
     "description": "Синхронизированный музыкальный плеер для кампании Curse of Strahd",
     "icon": "/icon.svg",
