@@ -95,7 +95,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Винодельня",
-            "link": "https://www.dropbox.com/scl/fi/ebnm2xoo99ysf6arczqgt/WOW.mp3?rlkey=hexjg1yf3gv6hddeyysuzbi6t&st=27t7161p&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/v3g7x0ajar1nlr7l3qsv4/Abbey-of-St-Markovia.mp3?rlkey=sjxnvdaz7k1sve6dm83alxtih&st=ievruj3r&dl=0",
             "loop": true
           }
         ]
@@ -117,7 +117,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Аббатство",
-            "link": "https://www.dropbox.com/scl/fi/v3g7x0ajar1nlr7l3qsv4/Abbey-of-St-Markovia.mp3?rlkey=sjxnvdaz7k1sve6dm83alxtih&st=xkm2x10h&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/v3g7x0ajar1nlr7l3qsv4/Abbey-of-St-Markovia.mp3?rlkey=sjxnvdaz7k1sve6dm83alxtih&st=ievruj3r&dl=0",
             "loop": true
           }
         ]
