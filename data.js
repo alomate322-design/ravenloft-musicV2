@@ -18,7 +18,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Баровия",
-            "link": "https://www.dropbox.com/scl/fi/vyf9hkkmixvv0ul10g85c/Barovia.mp3?rlkey=jurlv8r6qyq7b99vpoho13ucl&st=h3i18ido&dl=0",
+            "link": "https://www.youtube.com/watch?v=yNRwtvIOaBE",
             "loop": true
           }
         ]
