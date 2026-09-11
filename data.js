@@ -18,7 +18,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Баровия",
-            "link": "https://www.youtube.com/watch?v=yNRwtvIOaBE",
+            "link": "https://www.orangefreesounds.com/wp-content/uploads/2016/06/Crow-caw.mp3",
             "loop": true
           }
         ]
