@@ -19,25 +19,19 @@ export function clamp01(v) {
 }
 
 export function toDirectUrl(link) {
-  // Dropbox. www.dropbox.com даже с dl=1 отдаёт файл через редирект, на
-  // котором Chrome-плеер спотыкается у незалогиненных в Dropbox пользователей
-  // (MEDIA_ERR_NETWORK / FFmpegDemuxer data source error). Домен
-  // dl.dropboxusercontent.com отдаёт файл напрямую всем и умеет range-запросы.
-  // Путь (/scl/fi/... или /s/...) и rlkey сохраняем, лишнее (st, dl, raw)
-  // убираем.
+  // Dropbox: документированный прямой формат — www.dropbox.com/...?rlkey=...&dl=1
+  // (сервер отдаёт файл редиректом на dl.dropboxusercontent.com). Работает
+  // только если у ссылки доступ «все, у кого есть ссылка» — для ссылок
+  // «только приглашённые» анонимам приходит HTML вместо mp3.
+  // Ходить на dl.dropboxusercontent.com напрямую нельзя: для ссылок
+  // /scl/fi/... он отвечает страницей, а не файлом (проверено).
   try {
     const url = new URL(link);
     const host = url.hostname;
     if (host === "dropbox.com" || host === "www.dropbox.com") {
-      url.hostname = "dl.dropboxusercontent.com";
-      url.searchParams.delete("dl");
       url.searchParams.delete("raw");
       url.searchParams.delete("st");
-      return url.toString();
-    }
-    if (host === "dl.dropboxusercontent.com") {
-      url.searchParams.delete("dl");
-      url.searchParams.delete("raw");
+      url.searchParams.set("dl", "1");
       return url.toString();
     }
   } catch {

@@ -18,7 +18,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Баровия",
-            "link": "https://www.orangefreesounds.com/wp-content/uploads/2016/06/Crow-caw.mp3",
+            "link": "https://www.dropbox.com/scl/fi/vyf9hkkmixvv0ul10g85c/Barovia.mp3?rlkey=jurlv8r6qyq7b99vpoho13ucl&dl=1",
             "loop": true
           }
         ]
@@ -40,12 +40,12 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Замок",
-            "link": "https://www.dropbox.com/scl/fi/ynt02cu5pk57h5xs092ia/Castle.mp3?rlkey=4wduwvpcl8qcw3jqdooszdbv8&st=18sjxz4v&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/ynt02cu5pk57h5xs092ia/Castle.mp3?rlkey=4wduwvpcl8qcw3jqdooszdbv8&dl=1",
             "loop": true
           },
           {
             "name": "Равенлофт",
-            "link": "https://www.dropbox.com/scl/fi/x8gu0uaz9tn00c18iexte/Ravenloft.mp3?rlkey=isqs6k6flzdtajni7f5od67vh&st=kibx2cp3&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/x8gu0uaz9tn00c18iexte/Ravenloft.mp3?rlkey=isqs6k6flzdtajni7f5od67vh&dl=1",
             "loop": true
           }
         ]
@@ -59,7 +59,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Катакомбы",
-            "link": "https://www.dropbox.com/scl/fi/ds14sm3w66xx624fuhmun/Catacombs.mp3?rlkey=xs8vqpq6p34g9jgy3squpqpm4&st=tuksn7jq&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/ds14sm3w66xx624fuhmun/Catacombs.mp3?rlkey=xs8vqpq6p34g9jgy3squpqpm4&dl=1",
             "loop": true
           }
         ]
@@ -73,7 +73,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Замок музыка",
-            "link": "https://www.dropbox.com/scl/fi/mfp5p2vjpc4kitvz1p8dq/CastleMusic.mp3?rlkey=ywckzqv8g7modu4kdrfxcwo7y&st=cokrwe7q&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/mfp5p2vjpc4kitvz1p8dq/CastleMusic.mp3?rlkey=ywckzqv8g7modu4kdrfxcwo7y&dl=1",
             "loop": true
           }
         ]
@@ -95,7 +95,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Винодельня",
-            "link": "https://www.dropbox.com/scl/fi/v3g7x0ajar1nlr7l3qsv4/Abbey-of-St-Markovia.mp3?rlkey=sjxnvdaz7k1sve6dm83alxtih&st=ievruj3r&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/v3g7x0ajar1nlr7l3qsv4/Abbey-of-St-Markovia.mp3?rlkey=sjxnvdaz7k1sve6dm83alxtih&dl=1",
             "loop": true
           }
         ]
@@ -117,7 +117,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Аббатство",
-            "link": "https://www.dropbox.com/scl/fi/v3g7x0ajar1nlr7l3qsv4/Abbey-of-St-Markovia.mp3?rlkey=sjxnvdaz7k1sve6dm83alxtih&st=ievruj3r&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/v3g7x0ajar1nlr7l3qsv4/Abbey-of-St-Markovia.mp3?rlkey=sjxnvdaz7k1sve6dm83alxtih&dl=1",
             "loop": true
           }
         ]
@@ -139,7 +139,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Архенвольст",
-            "link": "https://www.dropbox.com/scl/fi/bcqf684v2zafibknt2sqv/Argynvostholt.mp3?rlkey=nqv848zwjb7w8qlg6959am8kf&st=ts2njwx1&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/bcqf684v2zafibknt2sqv/Argynvostholt.mp3?rlkey=nqv848zwjb7w8qlg6959am8kf&dl=1",
             "loop": true
           }
         ]
@@ -153,7 +153,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "АрхенвольстМ",
-            "link": "https://www.dropbox.com/scl/fi/nktbva9107fsw3d69f1j8/ArchenvolstMuisc.mp3?rlkey=vkb6cfxzq2wszuhihd5kj86c7&st=fr9gw9w3&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/nktbva9107fsw3d69f1j8/ArchenvolstMuisc.mp3?rlkey=vkb6cfxzq2wszuhihd5kj86c7&dl=1",
             "loop": true
           }
         ]
@@ -175,12 +175,12 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Валаки",
-            "link": "https://www.dropbox.com/scl/fi/7xy77g2ly05tskhb22y26/Valaki.mp3?rlkey=jpi2rvtayu93l6qfwwkaf9fq3&st=na06h38j&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/7xy77g2ly05tskhb22y26/Valaki.mp3?rlkey=jpi2rvtayu93l6qfwwkaf9fq3&dl=1",
             "loop": true
           },
           {
             "name": "Валаки2",
-            "link": "https://www.dropbox.com/scl/fi/mlaia6emjqttfhp3idb86/Valaki2.mp3?rlkey=hmor6h222dku564ihyftsy77m&st=j16f2kms&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/mlaia6emjqttfhp3idb86/Valaki2.mp3?rlkey=hmor6h222dku564ihyftsy77m&dl=1",
             "loop": true
           }
         ]
@@ -194,7 +194,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Дурка",
-            "link": "https://www.dropbox.com/scl/fi/bmdmt4hx8qy0itvddyltr/Durka.mp3?rlkey=8yztlmdua3xopf9u262mz3qwo&st=xsifhgoj&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/bmdmt4hx8qy0itvddyltr/Durka.mp3?rlkey=8yztlmdua3xopf9u262mz3qwo&dl=1",
             "loop": true
           }
         ]
@@ -216,7 +216,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Костедробилка",
-            "link": "https://www.dropbox.com/scl/fi/vcyq77x053ndwx4tl1gj3/Kostya.mp3?rlkey=xjd2bzynp8pckqutvw4v55sav&st=dqq6gycx&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/vcyq77x053ndwx4tl1gj3/Kostya.mp3?rlkey=xjd2bzynp8pckqutvw4v55sav&dl=1",
             "loop": true
           }
         ]
@@ -230,7 +230,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "КостедробилкаВедьмы",
-            "link": "https://www.dropbox.com/scl/fi/hkf571brvf3jxakxrwgzy/KostyaWich.mp3?rlkey=rdp249yvzhcvssuyxtsqyikra&st=6ec6ep9e&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/hkf571brvf3jxakxrwgzy/KostyaWich.mp3?rlkey=rdp249yvzhcvssuyxtsqyikra&dl=1",
             "loop": true
           }
         ]
@@ -252,7 +252,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Крезк",
-            "link": "https://www.dropbox.com/scl/fi/k3rsqy50dwnzyioxctbtg/Krezk.mp3?rlkey=3lizqnzct4vwkc9aqy2710ojy&st=6keocdp9&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/k3rsqy50dwnzyioxctbtg/Krezk.mp3?rlkey=3lizqnzct4vwkc9aqy2710ojy&dl=1",
             "loop": true
           }
         ]
@@ -274,7 +274,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "ВанРихтен",
-            "link": "https://www.dropbox.com/scl/fi/l5agkkdup3zx1wxdr4686/VanRichten.mp3?rlkey=m3hynrufos1irqjx7h5xzxiy0&st=uyjc6m3a&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/l5agkkdup3zx1wxdr4686/VanRichten.mp3?rlkey=m3hynrufos1irqjx7h5xzxiy0&dl=1",
             "loop": true
           }
         ]
@@ -296,7 +296,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Вистане",
-            "link": "https://www.dropbox.com/scl/fi/xdjiyvokwpp4nrqj6hc6t/Vistane1.mp3?rlkey=dh8fbv7m28s9ibjle30yq5wlj&st=70vkmzi1&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/xdjiyvokwpp4nrqj6hc6t/Vistane1.mp3?rlkey=dh8fbv7m28s9ibjle30yq5wlj&dl=1",
             "loop": true
           }
         ]
@@ -310,7 +310,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Вистане танец у костра",
-            "link": "https://www.dropbox.com/scl/fi/9tmw16g2cbto5626jri4j/VistaneFire.mp3?rlkey=auwfoxgbepw1coiaux2iwxdna&st=leekrixr&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/9tmw16g2cbto5626jri4j/VistaneFire.mp3?rlkey=auwfoxgbepw1coiaux2iwxdna&dl=1",
             "loop": true
           }
         ]
@@ -324,7 +324,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Гадание",
-            "link": "https://www.dropbox.com/scl/fi/4evqccvxje7pqxums1ahc/Gadanie.mp3?rlkey=rfxx10mhbjuduahjs5dl9zxcq&st=ku59tqhc&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/4evqccvxje7pqxums1ahc/Gadanie.mp3?rlkey=rfxx10mhbjuduahjs5dl9zxcq&dl=1",
             "loop": true
           }
         ]
@@ -346,7 +346,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Вахтерхаус",
-            "link": "https://www.dropbox.com/scl/fi/r1nncefne5rdqfx6ep0oe/Wahterhouse.mp3?rlkey=8htmb83pthw2rtmocjjuwdylb&st=n2ahii1f&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/r1nncefne5rdqfx6ep0oe/Wahterhouse.mp3?rlkey=8htmb83pthw2rtmocjjuwdylb&dl=1",
             "loop": true
           }
         ]
@@ -368,7 +368,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Баба Лысяга",
-            "link": "https://www.dropbox.com/scl/fi/mb33vpsrz5kmuayoc12zw/Baba.mp3?rlkey=w4g5bvcwkpgnut4tqlxa37tnl&st=56293he9&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/mb33vpsrz5kmuayoc12zw/Baba.mp3?rlkey=w4g5bvcwkpgnut4tqlxa37tnl&dl=1",
             "loop": true
           }
         ]
@@ -390,7 +390,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Дорога",
-            "link": "https://www.dropbox.com/scl/fi/0b855obk10ve1aqysihm7/Road.mp3?rlkey=jw5pjvyey74ozgwo4mt8i2zcr&st=ttsz83y0&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/0b855obk10ve1aqysihm7/Road.mp3?rlkey=jw5pjvyey74ozgwo4mt8i2zcr&dl=1",
             "loop": true
           }
         ]
@@ -404,7 +404,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Дорога бой",
-            "link": "https://www.dropbox.com/scl/fi/u9f56hkjqtd7v7335vyfn/RoadFight.mp3?rlkey=czzlzv7fbk64znua150txigw1&st=au8u13x0&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/u9f56hkjqtd7v7335vyfn/RoadFight.mp3?rlkey=czzlzv7fbk64znua150txigw1&dl=1",
             "loop": true
           }
         ]
@@ -418,7 +418,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Дорога епичный бой",
-            "link": "https://www.dropbox.com/scl/fi/qeaf41x43z6llax5yal1z/RoadFight.mp3?rlkey=k44cqmtc93pzn1mqo3k7o53hp&st=ey7st850&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/qeaf41x43z6llax5yal1z/RoadFight.mp3?rlkey=k44cqmtc93pzn1mqo3k7o53hp&dl=1",
             "loop": true
           }
         ]
@@ -440,7 +440,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Бой1",
-            "link": "https://www.dropbox.com/scl/fi/vyjp7q8w11a39uuabrmnf/B1.mp3?rlkey=mp82exjl8sjuizyclr97p3xr9&st=i3wr3nwz&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/vyjp7q8w11a39uuabrmnf/B1.mp3?rlkey=mp82exjl8sjuizyclr97p3xr9&dl=1",
             "loop": true
           }
         ]
@@ -454,7 +454,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Бой2",
-            "link": "https://www.dropbox.com/scl/fi/g9q0apoixujirch5g5jj9/B2.mp3?rlkey=kjlu181cn0ylbc2yypno22wtm&st=brn2wp8q&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/g9q0apoixujirch5g5jj9/B2.mp3?rlkey=kjlu181cn0ylbc2yypno22wtm&dl=1",
             "loop": true
           }
         ]
@@ -468,7 +468,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Бой3",
-            "link": "https://www.dropbox.com/scl/fi/hmwp0i7vagdyewk3yc5gp/B3.mp3?rlkey=cd2n0d0304f9htvzf1w682f7m&st=2qevg2w9&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/hmwp0i7vagdyewk3yc5gp/B3.mp3?rlkey=cd2n0d0304f9htvzf1w682f7m&dl=1",
             "loop": true
           }
         ]
@@ -482,7 +482,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Бой4",
-            "link": "https://www.dropbox.com/scl/fi/jobik4u24v2n21cnf4cj4/B4.mp3?rlkey=xgvurrjr0pzr2oj93ccrgtmn6&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/jobik4u24v2n21cnf4cj4/B4.mp3?rlkey=xgvurrjr0pzr2oj93ccrgtmn6&dl=1",
             "loop": true
           }
         ]
@@ -496,7 +496,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Бой1ч",
-            "link": "https://www.dropbox.com/scl/fi/8wf0vtk3rzhxb09095u4k/Battle1h.mp3?rlkey=0utamagqxzqayin0xznd5zpv5&st=ncg87n8g&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/8wf0vtk3rzhxb09095u4k/Battle1h.mp3?rlkey=0utamagqxzqayin0xznd5zpv5&dl=1",
             "loop": true
           }
         ]
@@ -518,7 +518,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Готика1",
-            "link": "https://www.dropbox.com/scl/fi/e1io33dhka4jibxjemm9w/Ghotic1.mp3?rlkey=0vd2pnxjs5hqz9meudlixzxeg&st=ork3gaai&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/e1io33dhka4jibxjemm9w/Ghotic1.mp3?rlkey=0vd2pnxjs5hqz9meudlixzxeg&dl=1",
             "loop": true
           }
         ]
@@ -532,7 +532,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Готика2",
-            "link": "https://www.dropbox.com/scl/fi/poqu0d4gk0i0bvk16n3zj/Ghotic2.mp3?rlkey=jkuieoztznmsvodpzxgu4ojgd&st=hw46hap4&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/poqu0d4gk0i0bvk16n3zj/Ghotic2.mp3?rlkey=jkuieoztznmsvodpzxgu4ojgd&dl=1",
             "loop": true
           }
         ]
@@ -546,7 +546,7 @@ export const BUILTIN_FOLDERS = [
         "tracks": [
           {
             "name": "Готика3",
-            "link": "https://www.dropbox.com/scl/fi/y7tnw91p9m0msl1bg2z7f/Ghotic3.mp3?rlkey=m55nlwuq2kqnsd79l5nbb5xyu&st=ivvg0qpn&dl=0",
+            "link": "https://www.dropbox.com/scl/fi/y7tnw91p9m0msl1bg2z7f/Ghotic3.mp3?rlkey=m55nlwuq2kqnsd79l5nbb5xyu&dl=1",
             "loop": true
           }
         ]
